@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> complain form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body> 
+
+<header>                                                   
+  <nav>
+    <ul>
+      <li><a href = "index.html">Home</a></li> 	
+        <li><a href="index.html">Log out</a></li>
+    </ul>
+</nav>
+</header>
+<!-- partial:index.partial.html -->
+<div class="container">  
+  <form id="contact" action="register.php" method="post">
+    <h3>Complain form</h3>
+    <h4>Enter the Given data</h4>
+    <fieldset>
+      <input name="name" placeholder="Your Name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input name="address" placeholder="your Address" type="text" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input name="phonenumber" placeholder="Your Phone Number" type="text" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input name="date" placeholder="date of problem" type="text" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea name="problem" placeholder="Type the problem" tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p class="copyright">Designed by PVSSS </a></p>
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
